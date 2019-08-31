@@ -1,0 +1,52 @@
+
+.header-top{}
+
+	
+
+.header-top a{}
+h4{}
+a{}
+ul{}
+ol{}
+.over{
+	overflow:hidden;
+	padding:5px;
+}
+.container{
+	width:100px;
+	margin:auto;
+	background-color:none;
+}
+.header{
+	
+	
+}
+.header-top{
+	background-color:none;
+	border-bottom:2px solid #ff4f81;
+}
+.header-top-left{
+	float:left;
+	
+}
+.header-top-right{
+	float:right;
+}
+.header-top-right a{
+	border-left:2px solid #ff4f81;
+	padding:3px;
+	display:inline-block;
+}
+.header-bottom{}
+.slider a{
+	color:red;
+}
+.connes{
+	float:right;
+	margin-top:15px;
+	margin-left:15px;
+}
+
+.logo{
+	float:left;
+}

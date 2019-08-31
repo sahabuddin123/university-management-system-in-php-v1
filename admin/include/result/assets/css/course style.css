@@ -1,0 +1,412 @@
+**************************************
+****************************************>
+	Project Name : School Management.
+	Project Author : Sujon Kumer.
+	Project Date : 
+	Email : sujonkumar080@gmail.com
+	Contact Number: 01785408231 ;
+
+
+	1  Header
+	2. Slider
+	3. Product
+	4. navbar
+	5. artical
+	6. aside
+	7. footer
+
+ <**************************************
+ ***************************************/
+
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+
+/**********************************
+	Base Css Start
+**********************************/
+
+/**********************************
+	Base Css End
+**********************************/
+/**********************************
+	Common Css start 
+**********************************/
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	margin: 0px;
+	padding: 0px;
+}
+.container{
+	margin: 0px 150px;
+}
+
+/**********************************
+	Common Css End 
+***********************************/
+
+
+ul{
+	list-style: none;
+	margin: 0px;
+	padding:0px;
+}
+a{
+	text-decoration: none;
+}
+
+
+
+/*=======================================
+ Header Section Css Start 
+ ========================================*/
+header{
+	width: 100%;
+	background-color: #56AB2F;
+	margin: 0px;
+	padding: 0px;
+
+}
+.top_menu{
+	display: flex;
+	justify-content: space-between;
+
+}
+.top_menu ul{
+	display: flex;
+}
+.top_menu ul li{
+	padding: 0px 10px;
+}
+
+.top_menu ul li a{
+	color:#fff;
+	 font-size: 15px;
+	line-height: 35px;
+}
+.top_menu ul:nth-of-type(2) li a {
+	padding: 5px 10px;
+	background-color: #56AB2F;
+	border:1px solid #fff;
+}
+.top_menu ul:nth-of-type(2) li a:hover {
+	background-color: black;
+	transition: 1s;
+}
+/*main manu start*/
+.header2{
+	background-color: #fff;
+	height: 80px;
+	width: 100%;
+	z-index: 9999;
+
+}
+.main_header{
+	display: flex;
+	justify-content: space-between;
+	padding-top: 20px;
+	}
+.main_header ul{
+	display: flex;
+}
+.nemu_items {
+	padding-top:9px;
+	padding-left: 190px;
+}
+.nemu_items li{
+	padding-right: 30px;
+}
+.nemu_items li a{
+	color:#000;
+}
+.nemu_items li a:hover{
+	color:#56AB2F;
+}
+.main_header ul li a{
+	font-size: 20px;
+}
+.main_header ul img{
+	padding-left: 35px;
+}
+
+
+ /*=======================================
+ Header Section Css End 
+ ========================================*/
+
+/*course_bg area start*/
+.main_bg{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.7)), url("../../assets/image/course_bg.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 200px;
+	width: 100%;
+	text-align: center;
+}
+.course_text{
+	text-align: center;
+	color:#fff;
+	padding-top: 20px;
+	transform: translate(0%,50%);
+}
+
+
+/*bg_menu*/
+
+.course_text h1{
+	padding: 0px;
+	margin: 0px;
+	padding-top: 10px;
+}
+.breadcrumb{
+	padding-top: 10px;
+}
+ul.breadcrumb {
+  list-style: none;
+}
+ul.breadcrumb li {
+  display: inline;
+  font-size: 18px;
+}
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: #fff;
+  content: "/\00a0";
+}
+ul.breadcrumb li a {
+  color: #fff;
+  text-decoration: none;
+}
+ul.breadcrumb li a:hover {
+  color: #01447e;
+  text-decoration: underline;
+}
+
+/*bg_menu*/
+/*course_bg area end*/
+
+
+/*our_courses_heading area start*/
+.courses_heading{
+	display: flex;
+	justify-content: space-between;
+}
+.left_heading h1{
+	font-size: 40px;
+	padding: 52px 0px 0px 10px;
+	margin: 0px;
+
+}
+.right_select_catagory{
+	display: flex;
+	margin-top: 50px;
+}
+.right_select_catagory div{
+	padding:10px 0px 10px 10px;
+}
+.right_select_catagory>div>select{
+	
+	border:1px solid #56AB2F;
+}
+.right_select_catagory div select{
+	padding: 10px 15px;
+}
+.icon{
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-gap: 10px;
+	font-size: 20px;
+
+}
+
+/*our_courses_heading area end*/
+/*our_courses start*/
+.our_all_course{
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-gap: 20px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.item img{
+	height: 200px;
+	width: 335px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	z-index: -9999;
+	}
+.item{
+	border: 1px solid #56AB2F;
+	text-align: center;
+}
+.item h2,p{
+	padding:0px;
+	margin: 0px;
+}
+.item h2{
+	padding-top: 15px;
+	padding-bottom: 5px;
+}
+.button_other ul{
+	display: flex;
+	justify-content: space-between;
+}
+.button_other ul li{
+	padding:10px 20px;
+	line-height: 20px;
+}
+.button_other ul li a{
+	color:#fff;
+	padding:12px 20px;
+	background-color: #56AB2F;
+}
+.button_other ul li a:hover{
+	background-color: green;
+}
+.second_slider{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+/*our_courses end*/
+
+ /*SUBSCRIBE_TO_OUR_NEWSLETTER area start*/
+.SUBSCRIBE_TO_OUR_NEWSLETTER{
+	padding: 0px;
+	margin:0px;
+	height: 150px;
+	width: 100%;
+	background-color: #56AB2F;
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 30px;
+}
+.SUBSCRIBE_TO_OUR_NEWSLETTER h1,p{
+	padding: 0px;
+	margin: 0px;
+}
+.heading_and_search{
+	color:#fff;
+}
+.heading_and_search h1{
+	font-size: 30px;
+	padding-bottom: 10px;
+}
+.heading_and_search input[type="search"]{
+	width:350px;
+	height: 50px;
+	border:2px solid #fff;
+	padding:10px;
+	margin-left: 15px;
+	font-size: 15px;
+	color: #fff;
+	background: none;
+}
+
+.heading_and_search button{
+	border:4px solid #9BC887;
+	padding:16px;
+	cursor: pointer;
+}
+ /*SUBSCRIBE_TO_OUR_NEWSLETTER area end*/
+/*footer area start*/
+ .wrapper_footer{
+ 	height: 480px;
+ 	width: 100%;
+ 	background-color: #1E1D1D;
+}
+ .main_footer{
+ 	padding-top: 80px;
+ 	color:#fff;
+ 	display: flex;
+ 	justify-content:space-between;
+ 	text-align: justify;
+ 	border-bottom: 2px solid #56AB2F;
+ }
+ .first_cla img{
+ 	padding-bottom: 20px;
+ }
+ .first_cla{
+ 	width: 25%;
+ }
+ .second_cla{
+	width: 15%;
+ }
+ .third_cla{
+ 	padding-top: 68px;
+ 	width: 15%;
+ }
+ .four_cal{
+ 	width: 15%;
+ 	padding-right: 30px;
+}
+
+.main_footer div h1{
+ 	padding-bottom: 42px;
+ }
+.main_footer div i{
+  	padding-right: 10px;
+ }
+ .main_footer div ul li a{
+   	padding-left: 15px;
+  }
+ .main_footer div ul li{
+    color:#56AB2F;
+   }
+ .main_footer div ul li a{
+  	color:#fff;
+  	line-height: 30px;
+  }
+.main_footer div ul li a:hover{
+   	color:#56AB2F;
+   }
+.main_footer h1,p{
+ 	margin: 0px;
+ 	padding: 0px;
+ }
+ .f_pic_div{
+ 	display: grid;
+ 	grid-template-columns: auto auto auto;
+ 	grid-gap: 10px;
+ }
+ .f_pic_div img{
+ 	cursor: pointer;
+ }
+ 
+ /*footer area end*/
+
+ /*Bottom Footer area start*/
+ .main_bottom_footer{
+ 	display: flex;
+ 	justify-content: space-between;
+ 	color: #fff;
+ 	padding-top: 20px;
+ }
+ .main_bottom_footer p{
+	padding-top: 15px;
+ }
+ .main_bottom_footer ul{
+ 	display: flex;
+ 	padding-top: 10px;
+ }
+  .main_bottom_footer ul li{
+	padding:5px;
+}
+  .main_bottom_footer ul li a{
+
+	border:1px solid #fff;
+	border-radius: 100%;
+	padding: 10px;
+	color:#fff;
+	font-size: 12px;
+	}
+   .main_bottom_footer ul li a:hover{
+   	color:#56AB2F;
+   }
+ /*Bottom Footer area End*/
+
+ /*----------------------------*/
+ 			/*THE END*/
+ /*----------------------------*/

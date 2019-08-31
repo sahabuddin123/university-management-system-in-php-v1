@@ -1,0 +1,314 @@
+/**************************************
+****************************************>
+	Project Name : Project Name.
+	Project Author : Sujon Kumer.
+	Project Date : 
+	Email : sujonkumar080@gmail.com.
+	Contact Number: 01785408231 ;
+
+
+	1  Header;
+	2. Slider;
+	3. Product;
+	4. navbar;
+	5. artical;
+	6. aside;
+	7. footer;
+
+ <**************************************
+ ***************************************/
+
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+
+/**********************************
+	Base Css Start
+**********************************/
+
+/**********************************
+	Base Css End
+**********************************/
+/**********************************
+	Common Css start 
+**********************************/
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	margin: 0px;
+	padding: 0px;
+}
+.container{
+	margin: 0px 150px;
+}
+
+/**********************************
+	Common Css End 
+***********************************/
+
+
+ul{
+	list-style: none;
+	margin: 0px;
+	padding:0px;
+}
+a{
+	text-decoration: none;
+}
+
+
+
+/*=======================================
+ Header Section Css Start 
+ ========================================*/
+header{
+	width: 100%;
+	background-color: #56AB2F;
+	margin: 0px;
+	padding: 0px;
+	z-index: 9999;
+
+}
+.top_menu{
+	display: flex;
+	justify-content: space-between;
+
+}
+.top_menu ul{
+	display: flex;
+}
+.top_menu ul li{
+	padding: 0px 10px;
+}
+
+.top_menu ul li a{
+	color:#fff;
+	 font-size: 15px;
+	line-height: 35px;
+}
+/*main menu start*/
+.header2{
+	background-color: #fff;
+	height: 80px;
+	width: 100%;
+	z-index: 9999;
+
+
+}
+.main_header{
+	display: flex;
+	justify-content: space-between;
+	padding-top: 30px;
+	}
+.main_header ul{
+	display: flex;
+}
+.nemu_items {
+	padding-top:9px;
+	padding-left: 190px;
+}
+.nemu_items li{
+	padding-right: 30px;
+}
+.nemu_items li a{
+	color:#000;
+}
+.nemu_items li a:hover{
+	color:#56AB2F;
+}
+.main_header ul li a{
+	font-size: 20px;
+}
+.main_header ul img{
+	padding-left: 35px;
+}
+/*main menu end*/
+/* menu bottom start*/
+.menu_b{
+	background-image: url(../../assets/image/5.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 200px;
+	text-align: center;
+
+}
+.menu_b h1{
+	color: #fff;
+	padding-top: 50px;
+}
+.link{
+
+}
+.link span{
+	color: green;
+}
+.link a{
+	color: #fff;
+}
+.link a:hover{
+	color: green;
+}
+/* menu bottom end*/
+/*main section start*/
+.main{
+	height: 500px;
+}
+.main h2{
+	text-align: center;
+	padding-top: 30px;
+}
+.details_section{
+	width: 400px;
+	float: left;
+}
+.details_section h3{
+	text-align: left;
+}
+.details_section p{
+	font-size: 15px;
+	color: #a3a2a2;
+}
+
+.details_section ul li{
+	padding-top: 20px;
+}
+.details_section ul li a{
+	color: #a3a2a2;
+}
+.details_section ul li a:hover{
+	color: #000;
+}
+.icon{
+	background-color: green;
+}
+.form_section{
+	width: 500px;
+	float: right;
+	padding-top: 40px;
+}
+.form_section input[type=text]{
+	padding: 10px;
+	width: 308px;
+}
+
+
+textarea{
+	width: 327px;
+	height: 100px;
+}
+button{
+	padding: 10px 40px;
+	margin-left: 110px;
+	border: none;
+	border: 1px solid #56ab2f;
+}
+button:hover{
+	background-color: #56ab2f;
+}
+/*main section end*/
+
+/*footer area start*/
+ .wrapper_footer{
+ 	height: 480px;
+ 	width: 100%;
+ 	background-color: #1E1D1D;
+ 	padding-top: 50px;
+}
+ .main_footer{
+ 	padding-top: 80px;
+ 	color:#fff;
+ 	display: flex;
+ 	justify-content:space-between;
+ 	text-align: justify;
+ 	border-bottom: 2px solid #56AB2F;
+ }
+ .first_cla img{
+ 	padding-bottom: 20px;
+ }
+ .first_cla{
+ 	width: 25%;
+ }
+ .second_cla{
+	width: 15%;
+ }
+ .third_cla{
+ 	padding-top: 68px;
+ 	width: 15%;
+ }
+ .four_cal{
+ 	width: 15%;
+ 	padding-right: 30px;
+}
+.five_cal a{
+
+
+   
+}
+.main_footer div h1{
+ 	padding-bottom: 42px;
+ }
+.main_footer div i{
+  	padding-right: 10px;
+ }
+ .main_footer div ul li a{
+   	padding-left: 15px;
+  }
+ .main_footer div ul li{
+    color:#56AB2F;
+   }
+ .main_footer div ul li a{
+  	color:#fff;
+  	line-height: 30px;
+  }
+.main_footer div ul li a:hover{
+   	color:#56AB2F;
+   }
+.main_footer h1,p{
+ 	margin: 0px;
+ 	padding: 0px;
+ }
+ .f_pic_div{
+ 	display: grid;
+ 	grid-template-columns: auto auto auto;
+ 	grid-gap: 10px;
+ }
+ .f_pic_div img{
+ 	cursor: pointer;
+ }
+ 
+ /*footer area end*/
+
+ /*Bottom Footer area start*/
+ .main_bottom_footer{
+ 	display: flex;
+ 	justify-content: space-between;
+ 	color: #fff;
+ 	padding-top: 20px;
+ }
+ .main_bottom_footer p{
+	padding-top: 15px;
+ }
+ .main_bottom_footer ul{
+ 	display: flex;
+ 	padding-top: 10px;
+ }
+  .main_bottom_footer ul li{
+	padding:5px;
+}
+  .main_bottom_footer ul li a{
+
+	border:1px solid #fff;
+	border-radius: 100%;
+	padding: 10px;
+	color:#fff;
+	font-size: 12px;
+	}
+   .main_bottom_footer ul li a:hover{
+   	color:#56AB2F;
+   }
+ /*Bottom Footer area End*/
+
+ /*----------------------------*/
+ 			/*THE END*/
+ /*----------------------------*/
